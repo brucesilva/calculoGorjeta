@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Calcular Gorjeta</title>
+</head>
+<body>
+ 
+   <form action="" id="formGorjeta"> 
+        <div class="card" style="width: 16rem;">
+            <img class="card-img-top" src="assets/img/gorjeta.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Calcula Gorjeta</h5>
+
+              <hr>
+
+              <label for="bill">Valor Conta R$</label>
+              <input type="text" id="bill" class="bill" required>
+
+              <label for="numberOfPeople">Qtd. Pessoas</label>
+              <input type="number" id="numberOfPeople" class="numberOfPeople" required> 
+
+              <hr>
+
+              <span >Qual valor da gorjeta?</span>
+              <select id="percentChip" class="percentChip" required> 
+                <option value="0">Sem Gorjeta</option>
+                <option value="0.10">10% Normal</option>
+                <option value="0.20">20% Boa</option>
+                <option value="0.30">30% Ótimo</option>
+                <option value="0.40">40% Excelente</option>
+              </select>
+
+              <input type="submit" class="btn btn-danger btn-block" value="Calcular">
+
+            </div>
+
+            <div id="totalBill">
+                Total: <span id="total"></span> <span id="each"></span>
+            </div>
+ 
+          </div>
+    </form>
+ 
+    <script type="text/javascript" src="assets/js/scriptGorjeta.js"></script>
+
+</body>
+</html>

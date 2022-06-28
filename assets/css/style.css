@@ -1,0 +1,41 @@
+.card{
+     margin:0px auto;
+     /* border: 1px solid red; */
+     margin-top: 50px;
+     box-shadow: 0.1rem 0.1rem;
+}
+.card-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 5rem;
+}
+
+.numberOfPeople{
+    margin-left: 1rem;
+}
+
+.btn{
+    margin-top: 10px;
+    display: block;
+}
+
+#totalBill{
+    display: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.percentChip{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 13.5rem;
+}
+ 
